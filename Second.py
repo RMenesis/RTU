@@ -1,0 +1,5 @@
+width = float(input("What is room's width? "))
+length = float(input("What is room's length? "))
+height = float(input("What is room's height? "))
+room = str((length * width * height))
+print("Room volume is", room)
