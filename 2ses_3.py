@@ -5,5 +5,5 @@
 # farenheit = 32+celsium*(9/5)
 
 temp = float(input("What is the temperature in celsius? "))
-farenheit = 32 + temp*(9/5)
+farenheit =round(32 + temp*(9/5),2)
 print(farenheit)
