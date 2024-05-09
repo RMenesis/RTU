@@ -14,6 +14,18 @@
 
 # Principā tas ir labs iesākums karātavu spēlei.
 
-user_name = input("First player enters text" )
+name = input("First player enters text ")
 
-user_name1 = input("Second player enters symbol" )
+def display(name):
+    display_name = ""
+    for letter in name:
+        if letter in name_symbol:
+            display_name +=letter
+        else:
+            display_name += "~"
+    return display_name
+
+print(display)
+    
+name_symbol = input("Second player enters symbol ")
+
