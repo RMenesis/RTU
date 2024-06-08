@@ -20,4 +20,4 @@ if response.status_code == 200:
     df.to_excel("data.xlsx", index=False)
     print("Successfully")
 else:
-    print(f"Failed {url}")
+    print("Failed")
